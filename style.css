@@ -1,0 +1,97 @@
+*{
+    font-family: sans-serif;
+    color: #120C52;
+}
+
+
+
+.box{
+    margin-top: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 450px;
+    background-color: #9E9354;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.button{
+    justify-content: center;
+    width: 450px;    
+    text-align: center;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input{        
+    justify-content: center;
+    align-items: center;    
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.input1{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #120C52;
+    background-color: transparent;
+    color: #120C52;
+    
+    padding-left: 15px;      
+    height: 30px;
+    width: auto;
+    border-bottom-left-radius: 0;
+}
+
+.input2{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #120C52;
+    background-color: transparent;
+    color: #120C52;
+    
+    padding-left: 15px;       
+    height: 30px;
+    width: auto;
+    border-end-end-radius: 0;
+}
+
+input::placeholder{
+    color: #120C52;
+}
+
+button{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #120C52;    
+    height: 30px;
+    width: 415px; 
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;   
+    background-color: transparent; 
+    font-weight: bold;
+    transition-duration: 0.2s;
+}
+
+button:hover{    
+    font-weight: bolder; 
+    width: 420px;  
+    font-size: 14px; 
+}
+
+button:active{
+    color: #615C9E;
+    border-color: #615C9E;
+}
+
+hr{
+    border-color: #524500;
+}
+
+body{
+    background-color: #9E9354;
+
+}
